@@ -1,0 +1,31 @@
+{
+  "name": "react-native-hype-card",
+  "version": "1.0.0",
+  "description": "A hype card with gradient element for react native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React",
+    "React",
+    "Native",
+    "Component",
+    "Card",
+    "Gradient",
+    "Hype💩"
+  ],
+  "author": {
+    "name": "Nico Audy",
+    "email": "nicoaudy1994@gmail.com",
+    "url": "https://github.com/nicoaudy"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "metro-react-native-babel-preset": "^0.55.0"
+  }
+}
