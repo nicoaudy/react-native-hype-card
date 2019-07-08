@@ -27,7 +27,7 @@ const HypeCard = props => {
     outerContainer,
     innerContainer,
     gradientColors,
-    imageComponent,
+    leftComponent,
     rightComponent,
     centerTitleStyle,
     centerSubtitleStyle,
@@ -46,7 +46,7 @@ const HypeCard = props => {
         style={outerContainer || _outerContainer(height, width, borderRadius)}
       >
         <View style={innerContainer || styles.innerContainer}>
-          {imageComponent || null}
+          {leftComponent || null}
           <View style={styles.column}>
             <Text style={titleStyle || styles.titleStyle}>{title || null}</Text>
             <Text style={subtitleStyle || styles.subtitleStyle}>
