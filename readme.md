@@ -1,9 +1,4 @@
-## Dependencies
----
-
-
-
-Hype Card with gradient for react native 🔥
+# Hype Card with gradient for react native 🔥
 
 [![npm](https://img.shields.io/npm/dt/react-native-hype-card.svg?style=popout)](https://www.npmjs.com/package/react-native-hype-card)
 ![Platform - Android and iOS](https://img.shields.io/badge/platform-Android%20%7C%20iOS-blue.svg)
