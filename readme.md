@@ -6,7 +6,7 @@
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 
-![Screenshot](https://raw.githubusercontent.com/nicoaudy/react-native-hype-card/master/screenshot/sc-01.png)
+![Screenshot](https://raw.githubusercontent.com/nicoaudy/react-native-hype-card/master/screenshot/sc.png)
 
 ## Installation
 
