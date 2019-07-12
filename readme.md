@@ -6,6 +6,7 @@
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 
+![Screenshot](https://raw.githubusercontent.com/nicoaudy/react-native-hype-card/master/screenshot/sc-01.png)
 
 ## Installation
 
@@ -25,6 +26,8 @@ $ npm i --save react-native-hype-card
 ## Basic Usage
 
 ```js
+import { HypeCard } from 'react-native-hype-card'
+
 <HypeCard />
 ```
 
@@ -33,20 +36,30 @@ $ npm i --save react-native-hype-card
 
 You can check the example for the advanced usage
 
-```js
- <HypeCard
-        style={{ marginTop: 16 }}
-        title={item.name}
-        subtitle={item.shortName}
-        centerTitle={item.value}
-        centerSubtitle={item.change}
-        centerSubtitleStyle={{
-          fontSize: 12,
-          marginLeft: 8,
-          textAlign: "center",
-          color: "tomato"
-        }}
-      />
+```javascript
+import { HypeCard } from 'react-native-hype-card'
+
+<HypeCard
+  key={id}
+  style={{ margin: 10 }}
+  leftComponent={<UserAvatar size="50" name="Peliharaan" />}
+  title="Peliharaan"
+  subtitle="Cat food"
+  centerTitle="22-08-2019"
+  centerSubtitle="400.000"
+  centerSubtitleStyle={{
+    fontSize: 12,
+    marginLeft: 8,
+    textAlign: "center",
+    color: "white"
+  }}
+  gradientColors={
+    type_id == 1
+      ? ["#70a1ff", "#5352ed", "#3742fa"]
+      : ["#ff7675", "#ff6b81", "#ff4757"]
+  }
+  onPress={() => // do what you want}
+/>
 ```
 
 ### Configuration - Props
@@ -72,7 +85,6 @@ You can check the example for the advanced usage
 | centerSubtitle      |  string   |         null         | change the center subtitle string with your data      |
 | titleStyle          |   style   |        style         | set your own style for title component                |
 | subtitleStyle       |   style   |        style         | set your own style for subtitle component             |
-| leftComponent       | component | text based component | set your component for the left part                  |
 | centerTitleStyle    |   style   |        style         | set your own style for center title component         |
 | centerSubtitleStyle |   style   |        style         | set your own style for center subtitle component      |
 | centerComponent     | component | text based component | set your component for the center part                |
